@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>谁最幸运</title>
+</head>
+<body>
+    <h1>
+        <a href="/show/">刷新</a>
+        <a href="/complete/?student_id={{ student.id | default:'0' }}">完成</a>
+    </h1>
+    <h1>
+        <a href="/call/">随机幸运数</a>
+    </h1>
+    <span style="background-color: cornflowerblue; font-weight: bold; font-size: 50px">
+        {{students.name}}
+    </span>
+</body>
+</html>
